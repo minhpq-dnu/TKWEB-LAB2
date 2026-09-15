@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page - HTML & HTML5</title>
+</head>
+<body>
+    <!--
+        Cú pháp thẻ HTML :
+        <tên_thẻ> Nội dung của thẻ </tên_thẻ>
+     - Tên thẻ gần với ngôn ngữ tự nhiên, mỗi một thẻ sẽ có mục đích sử dụng khác nhau
+     -->
+     <h1>1. Thẻ hiển thị văn bản</h1>
+     <!-- h1 -> h6
+        h- Header(Tiêu đề) font-size lớn, in đậm
+     -->
+     <h2>1.1. Thẻ hiển thị đoạn văn bản</h2>
+     <p>Paragraph - Đoạn văn bản</p>
+     <p>Bold: <b>In đậm</b></p>
+     <p>Italic: <i>In nghiêng</i></p>
+     <p>Underline: <u>Gạch chân</u></p>
+     <b>In đậm</b>
+     <p>Break (xuống dòng) <br> trong đoạn văn bản </p>
+     <!-- 
+        Cú pháp thẻ html dạng tổng quát:
+        <tên_thẻ thuộc_tính>
+            Nội dung của thẻ
+        </tên thẻ>
+      -->
+      <font color="red" size="3" i18n="en">Học HTML</font>
+      <!-- Horizoltal Line (Gạch ngang) -->
+      <hr/>
+      <hr size="5px" width="300px" color="black" align="right" />
+      <hr size="5px" width="300px" color="black" align="left" />
+      <hr size="5px" width="300px" color="black" align="center" />
+      <p>Đường kẻ ngang</p>
+      <big>Hiển thị đoạn văn bản lớn hơn so với mặc định</big>
+      <small>Hiển thị đoạn văn bản nhỏ hơn so với mặc định</small>
+      <p>Pi * R<sup>2</sup></p>
+      <p>H<sub>2</sub>0</p>
+      <em>Nghiêng</em>
+      <strong>In đậm</strong>
+      <h2>1.2. Thẻ tạo danh sách</h2>
+      <h3>1.2.1  Danh sách không sắp xếp</h3>
+        <h4>List Friend:</h4>
+        <ul><!--ul - Unordered List -->
+        <li>Nguyễn Đức Chanh</li><!--li - List Item  -->
+        <li>Anh Tên Thanh</li>
+        <li>Thu Quả Chanh</li>
+      </ul>
+      <h3>1.2.3. Danh sách sắp xếp</h3>
+      <h4>Girlfriend:</h4>
+      <ol><!--ol - Ordered List  -->
+        <li>Hoa còi</li>
+        <li>Thành béll</li>
+        <li>Thái dúi</li>
+      </ol>
+      <h1>2. Thẻ liên kết(Thẻ link)</h1>
+      <!-- Hỗ trợ liên kết đến một tài nguyên khác thông qua link (Đường dẫn):
+        - Đường dẫn tuyệt đối
+        - Đường dẫn tương đối
+     -->
+     <a href="D:\HOCTAP\TKW\LESSON 02\about.html">
+        About Page - Tuyệt đối</a>
+        <br>
+     <a href="./about.html">About Page - Tương đối</a>
+     <br>
+     <a href="https://www.google.com/">Go to Google</a>
+     <br>
+     <a href="mailto:abcdmm@gmail.com">Send mail</a>
+     <br>
+     <a href="tel:+84345678999">Call 0345678999</a>
+     <h1>3. Các thẻ đa phương tiện</h1>
+     <h2>3.1 Hình ảnh</h2>
+     <!-- src Source Tài nguyên-->
+     <img
+        height="280px"
+        src="./assets/images/Ferrari.png"
+        alt="Đoạn text hiển thị khi lỗi ảnh">
+        <object data="./assets/audio/music.mp3"></object>
+</body>
+</html>
